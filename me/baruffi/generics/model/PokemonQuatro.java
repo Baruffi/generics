@@ -1,4 +1,4 @@
-package br.com.liax.mm.model;
+package me.baruffi.generics.model;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,11 +7,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import br.com.liax.mm.helpers.AplicaVantagensHelper;
-import br.com.liax.mm.interfaces.IHabilidade;
-import br.com.liax.mm.interfaces.IPokemonBase;
-import br.com.liax.mm.interfaces.IPokemonQuatro;
-import br.com.liax.mm.interfaces.IPokemonTipado;
+import me.baruffi.generics.helpers.AplicaVantagensHelper;
+import me.baruffi.generics.interfaces.IHabilidade;
+import me.baruffi.generics.interfaces.IPokemonBase;
+import me.baruffi.generics.interfaces.IPokemonQuatro;
+import me.baruffi.generics.interfaces.IPokemonTipado;
 
 public class PokemonQuatro<T_Tipo extends Enum<T_Tipo>> implements IPokemonQuatro<T_Tipo> {
     private final String nome;

@@ -1,4 +1,4 @@
-package br.com.liax.mm;
+package me.baruffi.generics;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,12 +6,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import br.com.liax.mm.enums.PokemonLegendaryTypeEnum;
-import br.com.liax.mm.interfaces.IAplicativo;
-import br.com.liax.mm.interfaces.IPokemonBase;
-import br.com.liax.mm.model.Ataque;
-import br.com.liax.mm.model.Modificador;
-import br.com.liax.mm.model.PokemonQuatro;
+import me.baruffi.generics.enums.PokemonLegendaryTypeEnum;
+import me.baruffi.generics.interfaces.IAplicativo;
+import me.baruffi.generics.interfaces.IPokemonBase;
+import me.baruffi.generics.model.Ataque;
+import me.baruffi.generics.model.Modificador;
+import me.baruffi.generics.model.PokemonQuatro;
 
 public class AplicativoQuatro implements IAplicativo {
     private final List<PokemonQuatro<PokemonLegendaryTypeEnum>> legendaries;

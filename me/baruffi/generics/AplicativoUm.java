@@ -1,10 +1,10 @@
-package br.com.liax.mm;
+package me.baruffi.generics;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import br.com.liax.mm.interfaces.IAplicativo;
-import br.com.liax.mm.model.PokemonUm;
+import me.baruffi.generics.interfaces.IAplicativo;
+import me.baruffi.generics.model.PokemonUm;
 
 public class AplicativoUm implements IAplicativo {
     private final String primeiraHabilidade = "Primeira habilidade";

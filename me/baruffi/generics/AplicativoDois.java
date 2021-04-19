@@ -1,13 +1,13 @@
-package br.com.liax.mm;
+package me.baruffi.generics;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import br.com.liax.mm.interfaces.IAplicativo;
-import br.com.liax.mm.interfaces.IHabilidade;
-import br.com.liax.mm.model.HabilidadeGenerica;
-import br.com.liax.mm.model.PokemonDois;
+import me.baruffi.generics.interfaces.IAplicativo;
+import me.baruffi.generics.interfaces.IHabilidade;
+import me.baruffi.generics.model.HabilidadeGenerica;
+import me.baruffi.generics.model.PokemonDois;
 
 public class AplicativoDois implements IAplicativo {
     private final PokemonDois pokemon;

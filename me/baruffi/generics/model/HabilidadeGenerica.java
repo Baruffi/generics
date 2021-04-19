@@ -1,6 +1,6 @@
-package br.com.liax.mm.model;
+package me.baruffi.generics.model;
 
-import br.com.liax.mm.interfaces.IHabilidade;
+import me.baruffi.generics.interfaces.IHabilidade;
 
 public class HabilidadeGenerica<T> implements IHabilidade<T> {
 

@@ -1,23 +1,25 @@
-package br.com.liax.mm.model;
+package me.baruffi.generics.model;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import br.com.liax.mm.interfaces.IPokemonUm;
+import me.baruffi.generics.interfaces.IHabilidade;
+import me.baruffi.generics.interfaces.IPokemonDois;
 
-public class PokemonUm implements IPokemonUm<String> {
+public class PokemonDois implements IPokemonDois<String> {
     private final String nome;
     private int hp;
     private int pp;
     private List<String> modificadores = new ArrayList<>();
-    private final Map<String, String> habilidades;
+    private final Map<String, IHabilidade<String>> habilidades;
 
-    public PokemonUm(String nome, int hp, int pp, Map<String, String> habilidades) {
+    public PokemonDois(String nome, int hp, int pp, Map<String, IHabilidade<String>> habilidades) {
         this.nome = nome;
         this.hp = hp;
         this.pp = pp;
+
         this.habilidades = habilidades;
     }
 
@@ -57,12 +59,12 @@ public class PokemonUm implements IPokemonUm<String> {
     }
 
     @Override
-    public List<String> getHabilidades() {
+    public List<IHabilidade<String>> getHabilidades() {
         return new ArrayList<>(habilidades.values());
     }
 
     @Override
-    public String getHabilidade(String nome) {
+    public IHabilidade<String> getHabilidade(String nome) {
         return habilidades.get(nome);
     }
 

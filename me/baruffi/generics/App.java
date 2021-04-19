@@ -1,6 +1,6 @@
-package br.com.liax.mm;
+package me.baruffi.generics;
 
-import br.com.liax.mm.interfaces.IAplicativo;
+import me.baruffi.generics.interfaces.IAplicativo;
 
 public final class App {
     private static IAplicativo aplicativo;

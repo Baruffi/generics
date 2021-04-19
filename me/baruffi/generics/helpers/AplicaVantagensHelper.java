@@ -1,9 +1,9 @@
-package br.com.liax.mm.helpers;
+package me.baruffi.generics.helpers;
 
 import java.util.Map;
 
-import br.com.liax.mm.enums.PokemonLegendaryTypeEnum;
-import br.com.liax.mm.enums.PokemonStarterTypeEnum;
+import me.baruffi.generics.enums.PokemonLegendaryTypeEnum;
+import me.baruffi.generics.enums.PokemonStarterTypeEnum;
 
 public class AplicaVantagensHelper {
     private static final Map<PokemonStarterTypeEnum, PokemonStarterTypeEnum> vantagensStarter = Map.of(

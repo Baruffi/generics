@@ -1,4 +1,4 @@
-package br.com.liax.mm.interfaces;
+package me.baruffi.generics.interfaces;
 
 import java.util.List;
 

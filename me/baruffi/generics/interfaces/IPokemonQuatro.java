@@ -1,4 +1,4 @@
-package br.com.liax.mm.interfaces;
+package me.baruffi.generics.interfaces;
 
 public interface IPokemonQuatro<T_Tipo extends Enum<T_Tipo>> extends IPokemonTipado<T_Tipo> {
 

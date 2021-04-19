@@ -1,4 +1,4 @@
-package br.com.liax.mm.model;
+package me.baruffi.generics.model;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,9 +6,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import br.com.liax.mm.interfaces.IHabilidade;
-import br.com.liax.mm.interfaces.IPokemonBase;
-import br.com.liax.mm.interfaces.IPokemonTres;
+import me.baruffi.generics.interfaces.IHabilidade;
+import me.baruffi.generics.interfaces.IPokemonBase;
+import me.baruffi.generics.interfaces.IPokemonTres;
 
 public class PokemonTres<T_Tipo extends Enum<T_Tipo>> implements IPokemonTres<IPokemonBase, T_Tipo> {
     private final String nome;

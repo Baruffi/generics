@@ -1,7 +1,7 @@
-package br.com.liax.mm.model;
+package me.baruffi.generics.model;
 
-import br.com.liax.mm.interfaces.IHabilidade;
-import br.com.liax.mm.interfaces.IPokemonBase;
+import me.baruffi.generics.interfaces.IHabilidade;
+import me.baruffi.generics.interfaces.IPokemonBase;
 
 public class Ataque<T extends IPokemonBase> implements IHabilidade<T> {
     private final T dono;
